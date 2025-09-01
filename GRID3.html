@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .third{
+            display: grid;
+            background-color: aqua;
+            grid-template-columns: repeat(3,1fr);
+            height: 100vh;
+            gap: 10px;
+        
+
+        }
+        .p{
+            background-color: blue;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .q{
+            background-color: blue;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        .r{
+            background-color: blue;
+            grid-column: 3/4;
+            grid-row: 1/2;
+        }
+        .s{
+            background-color: blue;
+            grid-column: 1/2;
+            grid-row: 2/3;
+
+        }
+        .t{
+            background-color: blue;
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .u{
+            background-color: blue;
+            grid-column: 3/4;
+            grid-row: 2/3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="third">
+        <div class="p"></div>
+        <div class="q"></div>
+        <div class="r"></div>
+        <div class="s"></div>
+        <div class="t"></div>
+        <div class="u"></div>
+    </div>
+    
+</body>
+</html>
